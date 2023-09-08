@@ -1,0 +1,102 @@
+/* restaurant main sarlavha style */
+.restaurant-main {
+    position: relative;
+    width: 100%;
+    height: 390px;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.restaurant-main div {
+    /* background-repeat: no-repeat; */
+    background-position: top center;
+    filter: blur(.8px);
+    transform: scale(1.9);
+    width: 100%;
+    height: 100%;
+}
+
+.restaurant-main__text p {
+    position: absolute;
+    top: 18rem;
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: white;
+}
+
+.restaurant-main__p {
+    position: relative;
+    top: -5.4rem;
+    background-color: rgba(0,0,0,.5);
+    color: white;
+    border-radius: 12px;
+    padding: 10px 20px 10px 20px;
+    font-weight: 600;
+}
+/* end restaurant main sarlavha style */
+
+/* category btn style */
+.categoryBtn {
+    width: 90%;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    background-color: #cecece;
+    color: black;
+    border: none;
+    font-weight: 500;
+    letter-spacing: .3px;
+    transition: .5s;
+}
+
+.categoryBtn:hover {
+    background-color: black;
+    color: white;
+}
+/* end category btn style */
+
+/* card product style */
+.res-main__card {
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 20px;
+    transition: .3s;
+}
+
+.res-main__card:hover {
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.res-main__card img {
+    height: 180px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.res-main__cardTitle {
+    font-size: 1.2rem;
+    letter-spacing: .5px;
+}
+/* end card product style */
+
+/* restaurant savat style */
+.restaurant-savat {
+    padding: 15px;
+    width: 100%;
+    height: 390px;
+    background-color: #F5F5F5;
+    border-radius: 20px;
+    position: sticky;
+    top: 80px;
+}
+
+.restaurant-savat span:hover {
+    cursor: pointer;
+}
+
+.res-savat__text {
+    margin-top: 4rem;
+    margin-bottom: 0;
+    font-size: 1.04rem;
+}
+/* end restaurant savat style */

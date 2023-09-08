@@ -1,0 +1,62 @@
+.footer-main {
+    background-color: #F5F5F5;
+}
+
+/* footer brend style */
+.footer-brend {
+    margin-top: 3rem;
+}
+
+.footer-brend a {
+    font-family: 'Fira Sans', sans-serif;
+    text-decoration: none;
+    color: rgb(97, 95, 95);
+}
+/* end footer brend style */
+
+/* footer link style */
+.footer-link p a {
+    text-decoration: none;
+    color: rgb(48, 47, 47);
+    letter-spacing: .5px;
+}
+/* end footer link style */
+
+/* footer btn style */
+.app-store__btn {
+    padding: .7rem 2.8rem;
+}
+
+.app-store__btn svg {
+    margin-top: -.3rem;
+    margin-right: .2rem;
+}
+
+.app-store__btn:hover {
+    background-color: rgb(56, 56, 56);
+}
+/* end footer btn style */
+
+/* ijtimoiy tarmoqlar style */
+.social-networks {
+    clear: both;
+    float: right;
+    margin-top: 3rem;
+}
+
+.social-networks svg {
+    margin-left: .65rem;
+}
+
+.social-networks a {
+    color: black;
+}
+/* end ijtimoiy tarmoqlar style */
+
+/* oxirgi style */
+.text {
+    clear: both;
+    float: right;
+    margin-top: 3rem;
+    margin-right: 1rem;
+}

@@ -1,0 +1,83 @@
+/* Home search */
+.p__main {
+    background-image: url("https://bringo.uz/back_img.webp");
+    width: 100%;
+    height: 260px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* Home search */
+
+/* home category btn */
+.home__categoryBtn button {
+    width: 94%;
+    padding: .7rem 0;
+    background-color: #cecece;
+    color: black;
+    border: none;
+    font-weight: 500;
+    letter-spacing: .3px;
+    transition: .5s;
+}
+
+.home__categoryBtn button:hover {
+    background-color: black;
+    color: white;
+}
+/* home category btn */
+
+/* card main */
+.card-main {
+    border: none;
+    border-radius: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    transition: .3s;
+}
+
+.card-main:hover {
+    cursor: pointer;
+    transform: scale(1.015);
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.card-main img {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    height: 210px;
+}
+
+.card-main a {
+    text-decoration: none;
+    color: black;
+}
+
+.card-main__Subtitle {
+    font-size: .75rem;
+}
+
+.card-main__price {
+    color: rgb(0,200,85);
+}
+/* card main */
+
+/* btn continue */
+.home-btn__continue {
+    margin-top: 3.5rem;
+    background-color: #00C855;
+    color: white;
+    border: none;
+    transition: .3s;
+}
+
+.home-btn__continue:hover {
+    background-color: #15d267;
+    color: white;
+}
+
+.home-btn__continue:active {
+    background-color: #2bde79;
+    color: white;
+}
+/* end btn continue */
